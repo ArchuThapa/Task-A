@@ -1,14 +1,15 @@
 # Task-A
-
 # Scrollable Card Selection with Dragging Feature
 
 This project implements a scrollable card interface with dynamic selection and dragging functionality. It provides users the ability to drag cards to scroll and highlights the card closest to the center of the scrollable container. This interaction simulates smooth scrolling and dynamic content focusing.
 
 ## Table of Contents
+
 1. [Setup Instructions](#setup-instructions)
 2. [Technology Choices and Rationale](#technology-choices-and-rationale)
 3. [Known Limitations/Trade-offs](#known-limitationstrade-offs)
 4. [Future Improvements](#future-improvements)
+
 
 ---
 
@@ -33,7 +34,7 @@ You can open the index.html file directly in any modern web browser. This will l
 bash
 Copy code
 open index.html
-Technology Choices and Rationale
+## Technology Choices and Rationale
 This project is implemented using vanilla JavaScript and CSS for the following reasons:
 
 JavaScript (Vanilla)
@@ -42,7 +43,8 @@ No Dependencies: There is no need to rely on third-party libraries or frameworks
 CSS:
 Flexbox Layout: Flexbox is used for card layout and positioning. It's a simple, powerful way to align items within a container.
 Scroll and Focus Effects: Custom CSS properties such as scroll-snap-type and transform are used to create a smooth scrolling and focus effect for the cards.
-Known Limitations/Trade-offs
+
+## Known Limitations/Trade-offs
 While the project is functional, there are a few limitations and trade-offs to be aware of:
 
 No Mobile Responsiveness:
@@ -57,7 +59,8 @@ As more cards are added, performance might degrade when scrolling or dragging du
 No Accessibility Features:
 The project does not include features like keyboard navigation or screen reader support. These would need to be added for accessibility improvements.
 
-Future Improvements
+
+## Future Improvements
 Here are some potential future improvements that could enhance the functionality and user experience of this project:
 
 Mobile Responsiveness:
@@ -77,3 +80,4 @@ Implement keyboard navigation and screen reader support for better accessibility
 
 Performance Optimization:
 Optimize the scroll and drag functions for better performance, especially when dealing with a large number of cards.
+
