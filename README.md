@@ -34,7 +34,7 @@ bash
 Copy code
 open index.html
 
-##  Technology Choices and Rationale
+## Technology Choices and Rationale
 This project is implemented using vanilla JavaScript and CSS for the following reasons:
 
 JavaScript (Vanilla)
